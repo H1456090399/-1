@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/index",
+    "pages/map/index",
+    "pages/map/details",
+    "pages/map/polyline",
+    "pages/map/search",
+    "pages/map/newstudent",
+    "pages/map/letter",
+    "pages/web-views/web-views",
+    "pages/map/menu"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "white",
+    "navigationBarTitleText": "校园导览",
+    "navigationBarTextStyle": "black"
+  }
+  
+  
+  
+}
