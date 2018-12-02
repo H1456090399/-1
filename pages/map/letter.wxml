@@ -1,0 +1,9 @@
+<!--pages/map/letter.wxml-->
+<view class="page"   style=" background: url('http://www.hanjp.top/static/newstudent.jpg'); background-size:100%   100%;background-position:center;">
+    <scroll-view   scroll-y="true"   class="descript"  >
+        <view class='description'>
+          <rich-text nodes=""></rich-text>
+        </view>
+   </scroll-view>
+</view>
+

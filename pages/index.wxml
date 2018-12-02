@@ -1,0 +1,40 @@
+<view  class="button_img">
+    <navigator  url="map/letter">
+      <image class="img" src="http://www.hanjp.top/static/xzjy1.png"  style="width:  100%; height: 580px;">
+      </image>
+    </navigator>
+    </view>
+<view class="window_view">
+   <scroll-view class="scroll-view_H" scroll-x="true">
+      <view id="local" class="scroll-view-item_H local">
+         <view class='box'>
+             <navigator url="map/details">
+            <image src='http://www.hanjp.top/static/ico/home.png'></image>
+            </navigator>
+            <navigator class="button" url="map/details">
+            <text>简介</text>
+            </navigator>
+         </view>
+      </view>
+      <view id="img" class="scroll-view-item_H img">
+         <view class='box'>
+         <navigator url="map/index">
+            <image src='http://www.hanjp.top/static/ico/position.png'></image>
+            </navigator>
+            <navigator class="button" url="map/index">
+            <text>逛逛</text>
+            </navigator>
+         </view>
+      </view>
+      <view id="audio" class="scroll-view-item_H audio">
+         <view class='box'>
+         <navigator url="map/newstudent">
+            <image src='http://www.hanjp.top/static/ico/find.png'></image>
+            </navigator>
+            <navigator class="button" url="map/newstudent">
+            <text>入学</text>
+            </navigator>
+         </view>
+      </view>  
+   </scroll-view>
+</view>
